@@ -1,0 +1,37 @@
+<link rel="stylesheet" type="text/css" href="style/main.css">
+<link href="style/jquery-ui.css" rel="stylesheet" type="text/css"/>
+
+<script src="js/main.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+
+<body onLoad="makeCentered()">
+<table align="center" style="width:70%; height:300px" cellspacing="15px" id="main">
+<tr>
+<!-- left -->
+<td width="33%" align="center" class="row">
+<img src="images/robowars1.jpg" width="100%" height="300" id="image1">
+<p class="imageText" onClick="explode(1)" id="status1"><b>Robowars - 1</b></p>
+</td>
+<!-- left ends here -->
+
+<td><img src="images/vs2.png" width="50px" height="50px"></td>
+
+<!-- center -->
+<td width="33%" class="row" align="center">
+<img src="images/robowars2.jpg" width="100%" height="300" id="image2">
+<p class="imageText" onClick="explode(2);" class="p2" id="status2"><b>Robowars - 2</b></p>
+</td>
+<!-- center ends here -->
+
+<td><img src="images/vs2.png" width="50px" height="50px"></td>
+<!-- right -->
+<td width="33%" class="row" align="center">
+<img src="images/robowars3.jpg" width="100%" height="300" id="image3">
+<p class="imageText" onClick="explode(3);" id="status3"><b>Robowars - 3</b></p>
+</td>
+<!-- right ends here -->
+</tr>
+</table>
+<div id="audio"></div>
+</body>
